@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <img class="logo" src="./img/poke.png" alt="Logo">
+    <section class="pokedex">
+        <div class="ciraz"></div>
+        <div class="cirrj"></div>
+        <div class="ciram"></div>
+        <div class="cirve"></div><br>
+
+        
+
+        <div class="pokedato">
+            <h2 class="nombre"><p id="pokeNombre">Sin Datos</p></h2>
+            <p id="pokeNumero">Sin Datos</p>
+            <p id="pokeTipo">Sin Datos</p>
+            <p id="pokePeso">Sin Datos</p>
+            <p id="pokeAltura">Sin Datos</p>
+            <img class="pokimg" src="./img/pkeball.png" width="150 px" alt="" id="pokeImg">
+            <table class="demTable">
+                <TR>
+                    <th>HP</th>
+                    <th>ATK</th>
+                    <th>DEF</th>
+                    <th>SPATK</th>
+                    <th>SPDEF</th>
+                    <th>SPD</th>
+                </TR>
+                <tr>
+                    <td><p id="pokeHP">#</p></td>
+                    <td><p id="pokeATK">#</p></td>
+                    <td><p id="pokeDEF">#</p></td>
+                    <td><p id="pokeSPATK">#</p></td>
+                    <td><p id="pokeSPDEF">#</p></td>
+                    <td><p id="pokeSPD">#</p></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="buscar">
+            
+            <input type="text" class="css-input" placeholder="pikachu" id="pokeName" name="pokeName">         <button onclick="fetchPokemon()" class="boton">Buscar</button>
+
+        </div>
+    </section>
+    <footer>
+        <script src="./pokedex.js"></script>
+    </footer>
+</body>
+</html>
